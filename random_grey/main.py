@@ -1,6 +1,8 @@
 from PIL import Image
 import numpy as np
 
+"Creates an image with random colored pixels"
+
 im = np.random.randint(0, 255, size=(500, 500))
 im_r = np.random.randint(0, 255, size=(500, 500))
 im_g = np.random.randint(0, 255, size=(500, 500))
